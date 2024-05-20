@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ClientComponent from "./ClientComponent";
 import { heading1, section2 } from "./ServerComponent";
 
@@ -10,7 +11,9 @@ const HeroSection = () => {
           Experience an Exquisite Hotel Immersed in Rich History and Timeless
           Elegance.
         </p>
-        <button className="btn-toi">Get Started</button>
+        <Link href="/rooms">
+          <button className="btn-toi">Get Started</button>
+        </Link>
       </center>
     </div>
   );

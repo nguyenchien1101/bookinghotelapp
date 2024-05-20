@@ -38,7 +38,7 @@ const Auth = () => {
       router.push("/");
     } catch (error) {
       console.log(error);
-      toast.error("Something wen't wrong");
+      toast.error("Lỗi");
     }
   };
 
@@ -48,11 +48,11 @@ const Auth = () => {
     try {
       const user = await signUp(formData);
       if (user) {
-        toast.success("Success. Please sign in");
+        toast.success("Thành Công. vui lòng đăng nhập");
       }
     } catch (error) {
       console.log(error);
-      toast.error("Something wen't wrong");
+      toast.error("lỗi");
     } finally {
       setFormData(defaultFormData);
     }
@@ -111,7 +111,7 @@ const Auth = () => {
 
           <button
             type="submit"
-            className="w-full bg-tertiary-dark focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            className="w-full bg-[#40513B] focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-[#fff]"
           >
             Sign Up
           </button>

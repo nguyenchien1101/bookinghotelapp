@@ -171,12 +171,7 @@ const UserDetails = (props: { params: { id: string } }) => {
               <li
                 onClick={() => setCurrentNav("amount")}
                 className="inline-flex items-center cursor-pointer"
-              >
-                <GiMoneyStack />
-                <a className="inline-flex items-center mx-1 md:mx-3 text-xs md:text-sm font-medium">
-                  Amount Spent
-                </a>
-              </li>
+              ></li>
             </ol>
           </nav>
 
@@ -188,12 +183,6 @@ const UserDetails = (props: { params: { id: string } }) => {
                 toggleRatingModal={toggleRatingModal}
               />
             )
-          ) : (
-            <></>
-          )}
-
-          {currentNav === "amount" ? (
-            userBookings && <Chart userBookings={userBookings} />
           ) : (
             <></>
           )}

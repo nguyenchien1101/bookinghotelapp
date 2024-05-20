@@ -42,10 +42,10 @@ const ROOMDEtail = (props: { params: { slug: string } }) => {
   };
   const handleBookNowClick = async () => {
     if (!checkinDate || !checkoutDate)
-      return toast.error("Please provide checkin / checkout date");
+      return toast.error("Bạn chưa chọn ngày checkin / checkout ");
 
     if (checkinDate > checkoutDate)
-      return toast.error("Please choose a valid checkin period");
+      return toast.error("bạn chưa cung cấp cho chúng tôi số lượng");
 
     const numberOfDays = calcNumDays();
 
@@ -69,12 +69,12 @@ const ROOMDEtail = (props: { params: { slug: string } }) => {
         });
 
         if (result.error) {
-          toast.error("Payment Failed");
+          toast.error("thanh toán thất bại");
         }
       }
     } catch (error) {
       console.log("Error: ", error);
-      toast.error("An error occured");
+      toast.error("Lỗi");
     }
   };
   const calcNumDays = () => {
