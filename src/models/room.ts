@@ -49,3 +49,8 @@ export type CreateBookingDto = {
   totalPrice: number;
   discount: number;
 };
+export type Loaction = {
+  _id: string;
+  coverImage: CoverImage;
+  Name: string;
+};

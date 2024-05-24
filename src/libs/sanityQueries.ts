@@ -82,3 +82,8 @@ export const getRoomReviewsQuery = groq`*[_type == "review" && hotelRoom._ref ==
     },
     userRating
 }`;
+export const getlocation = groq`*[_type == "location"] {
+    _id, 
+    coverImage,
+    Name,
+}`;

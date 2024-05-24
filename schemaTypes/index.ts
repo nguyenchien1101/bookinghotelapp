@@ -4,6 +4,7 @@ import hotelRoom from "./hotelRoom";
 import review from "./review";
 import user from "./user";
 import verificationToken from "./verificationToken";
+import location from "./location";
 
 export const schemaTypes = [
   user,
@@ -12,4 +13,5 @@ export const schemaTypes = [
   hotelRoom,
   review,
   verificationToken,
+  location,
 ];

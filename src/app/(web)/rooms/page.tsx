@@ -43,7 +43,7 @@ const Rooms = () => {
     });
   };
   const fillerdRooms = filterRooms(data || []);
-  console.log(fillerdRooms);
+
   return (
     <div className="container mx-auto pt-10">
       <Search

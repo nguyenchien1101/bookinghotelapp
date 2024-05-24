@@ -1,4 +1,4 @@
-import { CreateBookingDto, Room } from "@/models/room";
+import { CreateBookingDto, Loaction, Room } from "@/models/room";
 import sanityClient from "./sanity";
 import * as queries from "./sanityQueries";
 import axios from "axios";
@@ -91,7 +91,7 @@ export const updateHotelRoom = async (hotelRoomId: string) => {
   return data;
 };
 export async function getUserBookings(userId: string) {
-  const result = await sanityClient.fetch<Booking>(
+  const result = await sanityClient.fetch<Booking[]>(
     queries.getUserBookingsQuery,
     {
       userId,
@@ -106,6 +106,15 @@ export async function getUserData(userId: string) {
   const result = await sanityClient.fetch(
     queries.getUserDataQuery,
     { userId },
+    { cache: "no-cache" }
+  );
+
+  return result;
+}
+export async function getLocaTion() {
+  const result = await sanityClient.fetch<Loaction[]>(
+    queries.getlocation,
+    {},
     { cache: "no-cache" }
   );
 
