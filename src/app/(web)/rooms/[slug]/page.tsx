@@ -16,6 +16,7 @@ import BookRoomCta from "@/components/BookRoomCta/BookRoomCta";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { getStripe } from "@/libs/stripe";
+import RoomReview from "@/components/RoomReview/RoomReview";
 const ROOMDEtail = (props: { params: { slug: string } }) => {
   const {
     params: { slug },
@@ -143,10 +144,12 @@ const ROOMDEtail = (props: { params: { slug: string } }) => {
               {/*review*/}
               <div className="shadow dark:shadow-white rounded-lg p-6">
                 <div className="items-center mb-4">
-                  <p className="md:text-lg font-semibold">Customer Reviews</p>
+                  <p className="md:text-lg font-semibold">
+                    Phản hồi khách hàng
+                  </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {/*review*/}
+                  <RoomReview roomId={room._id} />
                 </div>
               </div>
             </div>

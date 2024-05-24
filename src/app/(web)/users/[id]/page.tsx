@@ -13,9 +13,10 @@ import { useState } from "react";
 import { BsJournalBookmarkFill } from "react-icons/bs";
 import { GiMoneyStack } from "react-icons/gi";
 import Table from "@/components/Table/Table";
-import Chart from "@/components/Chart/Chart";
+import RatingModal from "@/components/RatingModal/RatingModal";
 
 import toast from "react-hot-toast";
+import BackDrop from "@/components/BackDrop/BackDrop";
 
 const UserDetails = (props: { params: { id: string } }) => {
   const {
@@ -188,6 +189,17 @@ const UserDetails = (props: { params: { id: string } }) => {
           )}
         </div>
       </div>
+      <RatingModal
+        isOpen={isRatingVisible}
+        ratingValue={ratingValue}
+        setRatingValue={setRatingValue}
+        ratingText={ratingText}
+        setRatingText={setRatingText}
+        isSubmittingReview={isSubmittingReview}
+        reviewSubmitHandler={reviewSubmitHandler}
+        toggleRatingModal={toggleRatingModal}
+      />
+      <BackDrop isOpen={isRatingVisible} />
     </div>
   );
 };
