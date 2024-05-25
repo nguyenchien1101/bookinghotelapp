@@ -50,10 +50,10 @@ const UserDetails = (props: { params: { id: string } }) => {
         roomId,
       });
       console.log(data);
-      toast.success("Review Submitted");
+      toast.success("Đăng phản hồi thành công");
     } catch (error) {
       console.log(error);
-      toast.error("Review Failed");
+      toast.error("Đăng phản hồi thất bại");
     } finally {
       setRatingText("");
       setRatingValue(null);
