@@ -58,7 +58,7 @@ export const Header = () => {
           <Link href="/rooms">Rooms</Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="/">Contact</Link>
+          <Link href="/About">About Us</Link>
         </li>
       </ul>
     </header>
