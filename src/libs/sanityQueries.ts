@@ -87,3 +87,16 @@ export const getlocation = groq`*[_type == "location"] {
     coverImage,
     Name,
 }`;
+export const getFeaturedRoomQuerynhieu = groq`*[_type == "hotelRoom" && isFeatured == true]{
+    _id,
+    description,
+    discount,
+    images,
+    isFeatured,
+    diemden,
+    diachi,
+    name,
+    price,
+    slug,
+    coverImage
+}`;

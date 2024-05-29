@@ -59,7 +59,11 @@ const Search: FC<Props> = ({
             onChange={handleSearchQueryChange}
           />
         </div>
-        <button className="btn-toi" type="button" onClick={handleFilterClick}>
+        <button
+          className="btn-primary "
+          type="button"
+          onClick={handleFilterClick}
+        >
           Search
         </button>
       </div>

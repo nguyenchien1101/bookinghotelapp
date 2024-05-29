@@ -38,7 +38,6 @@ export default function RootLayout({
           <ClientWrapper>
             <main className="font-normal bg-[#EDF1D6]">
               <Header />
-
               {children}
               <Footer />
             </main>

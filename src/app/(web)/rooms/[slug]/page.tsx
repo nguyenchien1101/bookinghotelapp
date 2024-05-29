@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import useSWR from "swr";
 import Search from "@/components/Search/Search";
-import RoomCard from "@/components/RoomCard/RoomCard";
+
 import Loading from "../../loading";
 import HotelPhotoGallery from "@/components/HotelPhotoGallery/HotelPhotoGallery";
 import { MdOutlineCleaningServices } from "react-icons/md";
@@ -13,6 +13,7 @@ import { LiaFireAltSolid } from "react-icons/lia";
 import { IoAtOutline } from "react-icons/io5";
 import { GiSmokeBomb } from "react-icons/gi";
 import BookRoomCta from "@/components/BookRoomCta/BookRoomCta";
+import MapComponent from "@/components/MAP/map";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { getStripe } from "@/libs/stripe";
@@ -140,6 +141,9 @@ const ROOMDEtail = (props: { params: { slug: string } }) => {
               <div className="mb-11">
                 <h2 className="font-bold text-3xl mb-2">Địa chỉ</h2>
                 <p>{room.diachi}</p>
+                <div style={{ width: "100%", height: "300px" }}>
+                  <MapComponent address={room.diachi} />
+                </div>
               </div>
               {/*review*/}
               <div className="shadow dark:shadow-white rounded-lg p-6">
