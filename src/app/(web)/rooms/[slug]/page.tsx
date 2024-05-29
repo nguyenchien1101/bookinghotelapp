@@ -76,7 +76,7 @@ const ROOMDEtail = (props: { params: { slug: string } }) => {
       }
     } catch (error) {
       console.log("Error: ", error);
-      toast.error("Lỗi");
+      toast.error("Bạn chưa đăng nhập");
     }
   };
   const calcNumDays = () => {
