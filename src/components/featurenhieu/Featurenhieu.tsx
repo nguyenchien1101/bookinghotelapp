@@ -72,7 +72,7 @@ const Featurenhieu: FC<Props> = (props) => {
                 className="h-full relative mb-16 overflow-visible"
               >
                 <Link key={diemDen._id} href={`/rooms/${diemDen.slug.current}`}>
-                  <div className="w-[95%] h-[400px] rounded overflow-hidden shadow-lg bg-white p-4 rounded-lg">
+                  <div className="w-[95%] h-[510px] rounded overflow-hidden shadow-lg bg-white p-4 rounded-lg">
                     <img
                       className="w-full h-[50%] object-cover rounded-lg"
                       src={diemDen.coverImage.url}
