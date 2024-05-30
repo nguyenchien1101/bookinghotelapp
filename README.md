@@ -64,4 +64,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ######6.About us
 ![alt text](image-3.png)
 
-#
+# Sơ đồ
+
+![alt text](image-8.png)
