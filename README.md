@@ -34,3 +34,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Features:
+
+- Hotel Room Management CRUD with Sanity.IO
+- Đánh Giá
+- Room Booking
+- Thanh Toán with Stripe
+- Stripe webhook
+- Search (Room Type / Nơi Bạn muốn đến)
+- xác thực with Auth.JS
+- Typescript
+- useSwr Hook
+- Deployment to Vercel
+- And lots more...
+
+# Giao diện
+
+'''' Home
+![alt text](image-1.png)
+''' room
+![alt text](image-2.png)
+'''About us
+![alt text](image-3.png)
