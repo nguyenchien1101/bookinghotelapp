@@ -51,9 +51,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Giao diện
 
-'''' Home
+######6.Home
 ![alt text](image-1.png)
-''' room
+######6.Rooms
 ![alt text](image-2.png)
-'''About us
+######6.About us
 ![alt text](image-3.png)
+
+#
