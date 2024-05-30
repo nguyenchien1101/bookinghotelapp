@@ -43,11 +43,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Thanh Toán with Stripe
 - Stripe webhook
 - Search (Room Type / Nơi Bạn muốn đến)
-- xác thực with Auth.JS
+- xác thực với Auth.JS
 - Typescript
 - useSwr Hook
 - Deployment to Vercel
-- And lots more...
+- ...
 
 # Giao diện
 
