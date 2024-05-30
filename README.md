@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Hotel Room Management CRUD with Sanity.IO
 - Đánh Giá
 - Room Booking
-- Thanh Toán with Stripe
+- Thanh Toán với Stripe
 - Stripe webhook
 - Search (Room Type / Nơi Bạn muốn đến)
 - xác thực với Auth.JS
