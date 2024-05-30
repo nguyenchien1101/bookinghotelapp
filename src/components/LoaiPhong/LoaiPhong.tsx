@@ -63,7 +63,7 @@ const LoaiPhong: FC = () => {
           className="h-full relative mb-16 overflow-visible"
         >
           <Link href={`/rooms?roomType=Basic&searchQuery=`}>
-            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-xl mx-auto mt-5 h-[300px] lg:w-[600px] lg:h-[300px]">
+            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-xl mx-auto mt-5 h-[300px] lg:w-37 lg:h-[300px]">
               <img
                 src="https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Phòng Basic"
@@ -82,7 +82,7 @@ const LoaiPhong: FC = () => {
           className="h-full relative mb-16 overflow-visible"
         >
           <Link href={`/rooms?roomType=Luxury&searchQuery=`}>
-            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-xl mx-auto mt-5 h-[300px] lg:w-[600px] lg:h-[300px]">
+            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-xl mx-auto mt-5 h-[300px] lg:w-37 lg:h-[300px]">
               <img
                 src="https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Phòng Luxury"
@@ -103,7 +103,7 @@ const LoaiPhong: FC = () => {
           className="h-full relative mb-16 overflow-visible"
         >
           <Link href={`/rooms?roomType=Suite&searchQuery=`}>
-            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-xl mx-auto mt-5 h-[300px] lg:w-[600px] lg:h-[300px]">
+            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-xl mx-auto mt-5 h-[300px] lg:w-37 lg:h-[300px]">
               <img
                 src="https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Phòng Suite"
