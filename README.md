@@ -53,6 +53,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ######6.Home
 ![alt text](image-1.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
 ######6.Rooms
 ![alt text](image-2.png)
 ######6.About us
