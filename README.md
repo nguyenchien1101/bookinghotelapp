@@ -68,7 +68,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ![alt text](image-8.png)
 
-# trả lời câu hỏi của các nhóm khác về seminar Gk
+# Trả lời câu hỏi của các nhóm khác về seminar Gk
 
 1. Bên cạnh các hook có sẵn thì mình có thể xây dựng các hook custom được không
 
