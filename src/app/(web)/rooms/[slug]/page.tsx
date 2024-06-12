@@ -12,7 +12,7 @@ import { MdOutlineCleaningServices } from "react-icons/md";
 import { LiaFireAltSolid } from "react-icons/lia";
 import { IoAtOutline } from "react-icons/io5";
 import { GiSmokeBomb } from "react-icons/gi";
-import BookRoomCta from "@/components/BookRoomCta/BookRoomCta";
+import BookRoomCtaa from "@/components/BookRoomCta/BookRoomCta";
 import MapComponent from "@/components/MAP/map";
 import toast from "react-hot-toast";
 import axios from "axios";
@@ -159,7 +159,7 @@ const ROOMDEtail = (props: { params: { slug: string } }) => {
             </div>
           </div>
           <div className="md:col-span-4 rounded-xl shadow-lg dark:shadow dark:shadow-white sticky top-10 h-fit overflow-auto">
-            <BookRoomCta
+            <BookRoomCtaa
               discount={room.discount}
               price={room.price}
               specialNote={room.specialNote}

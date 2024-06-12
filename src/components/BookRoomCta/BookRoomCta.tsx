@@ -19,7 +19,7 @@ type Props = {
   handleBookNowClick: () => void;
 };
 
-const BookRoomCta: FC<Props> = (props) => {
+const BookRoomCtaa: FC<Props> = (props) => {
   const {
     price,
     discount,
@@ -157,4 +157,4 @@ const BookRoomCta: FC<Props> = (props) => {
   );
 };
 
-export default BookRoomCta;
+export default BookRoomCtaa;
