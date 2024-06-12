@@ -76,7 +76,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 2. Ưu điểm và nhược điểm khi học ReactJS
 
--     Ưu điểm:
+- Ưu điểm:
 
 * Cộng đồng lớn và hỗ trợ tốt: Với một cộng đồng đông đảo, bạn có thể dễ dàng tìm thấy tài liệu, thư viện bổ trợ, và giải đáp thắc mắc từ nhiều nguồn.
 * Component-based architecture: Giúp tái sử dụng mã, dễ dàng bảo trì và mở rộng.
