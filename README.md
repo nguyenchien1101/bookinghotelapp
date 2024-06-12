@@ -76,18 +76,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 2. Ưu điểm và nhược điểm khi học ReactJS
 
-- Ưu điểm:
+Ưu điểm:
 
-* Cộng đồng lớn và hỗ trợ tốt: Với một cộng đồng đông đảo, bạn có thể dễ dàng tìm thấy tài liệu, thư viện bổ trợ, và giải đáp thắc mắc từ nhiều nguồn.
-* Component-based architecture: Giúp tái sử dụng mã, dễ dàng bảo trì và mở rộng.
-* Virtual DOM: Tăng hiệu suất bằng cách giảm thiểu số lần thao tác trực tiếp lên DOM thật.
-* Hooks: Giúp quản lý state và các side effect một cách dễ dàng và rõ ràng hơn.
+- Cộng đồng lớn và hỗ trợ tốt: Với một cộng đồng đông đảo, bạn có thể dễ dàng tìm thấy tài liệu, thư viện bổ trợ, và giải đáp thắc mắc từ nhiều nguồn.
+- Component-based architecture: Giúp tái sử dụng mã, dễ dàng bảo trì và mở rộng.
+- Virtual DOM: Tăng hiệu suất bằng cách giảm thiểu số lần thao tác trực tiếp lên DOM thật.
+- Hooks: Giúp quản lý state và các side effect một cách dễ dàng và rõ ràng hơn.
 
-- Nhược điểm:
+Nhược điểm:
 
-* Học tập ban đầu có thể khó: Đối với người mới, khái niệm về JSX, component-based architecture, và hooks có thể gây khó khăn.
-* Quá nhiều cách để làm một việc: Do React chỉ là thư viện cho view, bạn sẽ cần chọn và học thêm nhiều thư viện khác để xử lý routing, state management, vv.
-* Thay đổi nhanh: React và hệ sinh thái của nó thay đổi nhanh chóng, bạn cần cập nhật kiến thức liên tục.
+- Học tập ban đầu có thể khó: Đối với người mới, khái niệm về JSX, component-based architecture, và hooks có thể gây khó khăn.
+- Quá nhiều cách để làm một việc: Do React chỉ là thư viện cho view, bạn sẽ cần chọn và học thêm nhiều thư viện khác để xử lý routing, state management, vv.
+- Thay đổi nhanh: React và hệ sinh thái của nó thay đổi nhanh chóng, bạn cần cập nhật kiến thức liên tục.
 
 3. Làm thế nào để cập nhật state đúng cách
 
